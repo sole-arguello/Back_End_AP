@@ -35,17 +35,14 @@ public class Persona {
     @NotNull
     @Size(min=1, max=1550, message="no cumple con la longitud")
     private String sobremi;
+    
     @NotNull
     @Size(min=1, max= 50, message="no cumple con la longitud")
     private String img;
     
+    @NotNull
     private String banner;
-    
-    public String getBanner(){
-        return banner;
-    }
-    
-    
+
     public Long getId() {
         return id;
     }
@@ -101,5 +98,15 @@ public class Persona {
     public void setImg(String img) {
         this.img = img;
     }
+
+    public String getBanner() {
+        return banner;
+    }
+
+    public void setBanner(String banner) {
+        this.banner = banner;
+    }
+    
+
     
 }

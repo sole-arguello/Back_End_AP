@@ -22,9 +22,7 @@ public class PersonaController {
     
     @GetMapping("/personas/traer")
     public List<Persona> getPersona(){
-        return ipersonaService.getPersona();
-        
-        
+        return ipersonaService.getPersona();   
     } 
     
     @PreAuthorize("hasRole('ADMIN')")

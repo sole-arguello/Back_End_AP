@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface IPersonaService {
     
-        //traer persona trae una lista de personas
+    //traer persona trae una lista de personas
     public List<Persona> getPersona();
     //guardar un objeto de tipo persona
     public void savePersona(Persona persona);
