@@ -21,8 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("red")
-@CrossOrigin(origins="http://localhost:4200")
-//@CrossOrigin((origins="https://frontend-arg.web.app")
+//@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://front-end-msa.web.app/")
 public class CRedes {
      @Autowired
      SRedes sRedes;
