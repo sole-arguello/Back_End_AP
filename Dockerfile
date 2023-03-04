@@ -3,4 +3,3 @@ MAINTAINER nico
 copy target/msa-0.0.1-SNAPSHOT.jar argentina-developer.jar 
 entrypoint ["java","-jar","/argentina-developer.jar"]  
 CMD ["/bin/sh"]
-
